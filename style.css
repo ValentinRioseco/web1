@@ -1,9 +1,119 @@
+/* Inicio/index */
 
+body {
+  background-color: rgb(82, 77, 77);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-right: 3%;
+}
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' -25,
-    'opsz' 48
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.pricipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+.pricipal ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pricipal ul li {
+  margin-bottom: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.logosizquierda {
+  width: 300px;
+  margin-right: 20%;
+}
+
+.logosderecha {
+  width: 300px;
+  margin-left: 20%;
+}
+
+.pricipal h3 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+/* seccion autos */
+.autos{
+  width: 300px;
+}
+
+.carpeta p {
+  width: 70%;
+  margin-left: 5%;  
+  font-size: 1.5em;
+}
+
+.tabla {
+margin: 0 auto;
+}
+
+.tabla th, td {
+  padding: 5px;
+}
+
+.contabla {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* contacto */
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#random {
+  text-align: center;
+  font-size: 50px;
   }
+
+input[type=text], input[type=email], textarea, #random {
+  width: 50%;
+  margin-bottom: 1%;
+}
+
+#contacto {
+ text-align: center;
+}
+
+#btncaptcha {
+  width: 10%;
+  height: 45px;
+}
+
+.contenedor-form {
+  margin-bottom: 15%;
+}

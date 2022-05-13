@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
-        <span class="material-symbols-outlined">
-            directions_car
-            </span>
-        <nav><ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="autos.html">Autos</a></li> 
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul></nav>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="autos.html">Autos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contenedor-form">
+        <h1 id="contacto">Contactanos</h1>
+
+        <form class="contacto" action="">
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre">
+            <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email">
+            <div id="random"></div>
+            <label for="captcha"></label>
+            <input id="captcha" type="text" name="captcha" placeholder="ingrese el codigo captcha">
+            <button id="btncaptcha">enviar</button>
+        </form>
+        <div id="validacion">
+
         </div>
-        <div>
-            <form action="">
-                <input type="text">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="email">
-                <input type="text">
-                s
-            </form>
-        </div>
-    </body>
+    </div>
+    <footer>todos los derechos resevados</footer>
+    <script src="js/captcha.js"></script>
+</body>
+
 </html>
