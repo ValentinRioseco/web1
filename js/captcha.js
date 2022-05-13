@@ -17,9 +17,9 @@ captcha.innerHTML = text;
 document.querySelector ("#btncaptcha").addEventListener("click", (e) => { 
     e.preventDefault()
     if (text == input.value) {
-    document.querySelector ("#validacion").innerHTML="<p> Captcha correcto </p>"
+    document.querySelector ("#validacion").innerHTML="<p class='correcto'> Captcha correcto </p>"
     }
     else {
-    document.querySelector ("#validacion").innerHTML="<p> Captcha incorrecto </p>"
+    document.querySelector ("#validacion").innerHTML="<p class='incorrecto'> Captcha incorrecto </p>"
     }
 })
